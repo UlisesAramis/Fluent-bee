@@ -10,11 +10,20 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* Agregando tus colores personalizados 'bee' */
+  --color-graphite: "#2F3239";
+  --color-solar-neon: #f3e600;
+  --color-polar-glow: #3ec0f0;
+  --color-mist-gray: #dadada;
+
+  --image-hero-responsive: url("/images/BackgroundIconsResponsive.webp");
+  --image-hero: url("/images/BackgroundIcons.webp");
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #2d323a;
     --foreground: #ededed;
   }
 }
