@@ -1,9 +1,13 @@
-import Image from "next/image";
+import BottomBee from "@/assets/BottomBee.webp";
 import BeeLogo from "@/images/BeeLogo.webp";
+import Image from "next/image";
+import TopBee from "@/assets/TopBee.webp";
+import ButtonBee from "../ui/ButtonBee";
 
 const SpeakEnglish = () => {
   return (
     <section className="w-full h-screen bg-solar-neon bg-(image:--image-hero-responsive)  bg-cover bg-center lg:bg-(image:--image-hero) flex justify-center items-center">
+      <Image src={BottomBee} alt="BottomBee" className="hidden md:block" />
       <div className="w-5/6 flex flex-col items-center gap-y-10 text-center text-black">
         <Image src={BeeLogo} alt="BeeLogo" />
 
@@ -17,10 +21,11 @@ const SpeakEnglish = () => {
           just for you!
         </p>
 
-        <button className="bg-black text-white px-4 py-2 rounded mt-4">
-          Get Started for Free
-        </button>
+        <ButtonBee className="text-lg px-6 py-3">
+          Start Your Free Trial
+        </ButtonBee>
       </div>
+      <Image src={TopBee} alt="TopBee" className="hidden md:block" />
     </section>
   );
 };
