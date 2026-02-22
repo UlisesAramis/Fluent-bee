@@ -12,10 +12,11 @@
   --font-mono: var(--font-geist-mono);
 
   /* Agregando tus colores personalizados 'bee' */
-  --color-graphite: "#2F3239";
+  --color-graphite: #2f3239;
   --color-solar-neon: #f3e600;
   --color-polar-glow: #3ec0f0;
   --color-mist-gray: #dadada;
+  --color-neon-sky: #3ec0f0;
 
   --image-hero-responsive: url("/images/BackgroundIconsResponsive.webp");
   --image-hero: url("/images/BackgroundIcons.webp");
