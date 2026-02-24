@@ -12,8 +12,10 @@ const Instructions = () => {
           />
         </div>
         <div className="text-black w-5/6 mx-auto text-center flex flex-col gap-y-5">
-          <h1 className="text-3xl uppercase font-bold">Instructions</h1>
-          <p>
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight">
+            Instructions
+          </h1>
+          <p className="text-base sm:text-lg leading-relaxed">
             To start a conversation on Fluentbee.ai, please grant the necessary
             microphone permissions to your browser. After permissions are
             secured, simply press the 'Talk' button, start to talk, and press
@@ -21,21 +23,21 @@ const Instructions = () => {
             your AI tutor.
           </p>
 
-          <p className="font-bold">
+          <p className="font-bold text-base sm:text-lg leading-relaxed">
             Remember, only the time you spend speaking is deducted from your
-            available minutes; the AI tutor’s responses do not impact your time
+            available minutes; the AI tutor´s responses do not impact your time
             balance. So, a conversation where you speak for two minutes could
             actually span five minutes of interaction, maximizing the value you
             receive from each session.
           </p>
 
-          <p>
+          <p className="text-base sm:text-lg leading-relaxed">
             For those who prefer visual aids, you have the option to unhide and
             view the conversation text, allowing you to see exactly what is
             being asked or stated.
           </p>
 
-          <p className="font-bold text-neon-sky">
+          <p className="font-bold text-neon-sky text-base sm:text-lg leading-relaxed">
             Now, why wait? Dive in, try it now, and embark on your journey to
             sharpen your English conversational skills with Fluentbee.ai!
           </p>
