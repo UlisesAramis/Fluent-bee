@@ -14,12 +14,15 @@
   /* Agregando tus colores personalizados 'bee' */
   --color-graphite: #2f3239;
   --color-solar-neon: #f3e600;
-  --color-polar-glow: #3ec0f0;
   --color-mist-gray: #dadada;
   --color-neon-sky: #3ec0f0;
 
   --image-hero-responsive: url("/images/BackgroundIconsResponsive.webp");
   --image-hero: url("/images/BackgroundIcons.webp");
+}
+
+@utility bg-honey-comb-cell {
+  background-image: url("/images/HoneyCombCell.png");
 }
 
 @media (prefers-color-scheme: dark) {
