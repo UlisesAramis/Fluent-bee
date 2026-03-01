@@ -1,7 +1,7 @@
 const Instructions = () => {
   return (
-    <section className="bg-white bg-honey-comb-cell bg-cover bg-center  w-full">
-      <div className="flex flex-col items-center gap-y-10 pt-20">
+    <section className="bg-white bg-honey-comb-cell lg:bg-honey-comb-desk bg-cover bg-center bg-no-repeat w-full">
+      <div className="w-5/6 mx-auto flex flex-col lg:flex-row items-center gap-y-10 md:gap-x-20 ">
         <div className="aspect-video w-5/6 mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
           <iframe
             className="w-full h-full"
@@ -11,6 +11,7 @@ const Instructions = () => {
             allowFullScreen
           />
         </div>
+
         <div className="text-black w-5/6 mx-auto text-center flex flex-col gap-y-5">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight">
             Instructions
