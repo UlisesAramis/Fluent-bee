@@ -25,6 +25,10 @@
   background-image: url("/images/HoneyCombCell.png");
 }
 
+@utility bg-honey-comb-desk {
+  background-image: url("/images/HoneyCombDesk.png");
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #2d323a;
