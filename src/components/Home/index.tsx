@@ -2,6 +2,7 @@ import SpeakEnglish from "./SpeakEnglish";
 import FreeTrail from "./FreeTrail";
 import Instructions from "./Instructions";
 import OurPlans from "./OurPlans";
+import Advantages from "./Advantages";
 
 const HomeBee = () => {
   return (
@@ -10,6 +11,7 @@ const HomeBee = () => {
       <FreeTrail />
       <Instructions />
       <OurPlans />
+      <Advantages />
     </main>
   );
 };
