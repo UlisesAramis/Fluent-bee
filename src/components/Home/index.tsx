@@ -3,7 +3,6 @@ import FreeTrail from "./FreeTrail";
 import Instructions from "./Instructions";
 import OurPlans from "./OurPlans";
 import Advantages from "./Advantages";
-import Footer from "../ui/Footer";
 
 const HomeBee = () => {
   return (
@@ -13,7 +12,6 @@ const HomeBee = () => {
       <Instructions />
       <OurPlans />
       <Advantages />
-      <Footer />
     </main>
   );
 };
