@@ -13,29 +13,29 @@ const Header: React.FC = () => {
     <>
       <header className="bg-white  w-full">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          {/* Logo */}
-          <Image
-            src={Bee}
-            alt="Fluentbee logo"
-            width={140}
-            height={50}
-            priority
-          />
+          <Link href="/">
+            <Image
+              src={Bee}
+              alt="Fluentbee logo"
+              width={140}
+              height={50}
+              priority
+            />
+          </Link>
 
-          {/* Desktop Nav */}
           <nav className="hidden md:block">
             <ul className="flex gap-8 text-sm font-medium text-black">
               <li>
                 <Link
-                  href="/"
+                  href="/our-planes"
                   className="hover:text-polar-glow hover:bold transition"
                 >
-                  Home
+                  Our planes
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/about"
+                  href="/sign-up"
                   className="hover:text-polar-glow hover:bold transition bg-mist-gray text-white px-4 py-2 rounded mt-4"
                 >
                   Sign up
@@ -43,7 +43,7 @@ const Header: React.FC = () => {
               </li>
               <li>
                 <Link
-                  href="/contact"
+                  href="/login"
                   className="hover:text-polar-glow hover:bold transition bg-black text-white px-4 py-2 rounded mt-4"
                 >
                   Login
@@ -52,7 +52,6 @@ const Header: React.FC = () => {
             </ul>
           </nav>
 
-          {/* Hamburger */}
           <button
             className="md:hidden text-gray-700"
             onClick={() => setOpen(true)}
@@ -76,7 +75,6 @@ const Header: React.FC = () => {
         </div>
       </header>
 
-      {/* Mobile Navigation */}
       <MobileNav open={open} onClose={() => setOpen(false)} />
     </>
   );
