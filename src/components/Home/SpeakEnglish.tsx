@@ -1,15 +1,19 @@
 import BottomBee from "@/assets/BottomBee.webp";
+import ButtonBee from "@/components/ui/ButtonBee";
 import BeeLogo from "@/images/BeeLogo.webp";
-import Image from "next/image";
 import TopBee from "@/assets/TopBee.webp";
-import ButtonBee from "../ui/ButtonBee";
+import Image from "next/image";
 
 const SpeakEnglish = () => {
   return (
     <section className="w-full h-screen bg-solar-neon bg-(image:--image-hero-responsive)  bg-cover bg-center lg:bg-(image:--image-hero) flex justify-center items-center">
-      <Image src={BottomBee} alt="BottomBee" className="hidden md:block" />
+      <Image
+        src={BottomBee}
+        alt="Bee flying below"
+        className="hidden md:block"
+      />
       <div className="w-5/6 flex flex-col items-center gap-y-10 text-center text-black">
-        <Image src={BeeLogo} alt="BeeLogo" />
+        <Image src={BeeLogo} alt="fluentbee logo" />
 
         <h1 className="text-3xl font-bold">
           Speak English, Seize Opportunities!
@@ -25,7 +29,7 @@ const SpeakEnglish = () => {
           Start Your Free Trial
         </ButtonBee>
       </div>
-      <Image src={TopBee} alt="TopBee" className="hidden md:block" />
+      <Image src={TopBee} alt="Bee flying above" className="hidden md:block" />
     </section>
   );
 };
