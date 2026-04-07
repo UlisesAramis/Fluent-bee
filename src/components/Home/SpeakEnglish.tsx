@@ -1,7 +1,7 @@
-import BottomBee from "@/assets/BottomBee.webp";
+import BottomBee from "@/images/BottomBee.webp";
 import ButtonBee from "@/components/ui/ButtonBee";
 import BeeLogo from "@/images/BeeLogo.webp";
-import TopBee from "@/assets/TopBee.webp";
+import TopBee from "@/images/TopBee.webp";
 import Image from "next/image";
 
 const SpeakEnglish = () => {
