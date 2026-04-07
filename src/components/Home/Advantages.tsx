@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Bee from "@/assets/BeePlanes.webp";
-import CellBee from "@/assets/CELULAR.webp";
+import Bee from "@/images/BeePlanes.webp";
+import CellBee from "@/images/CELULAR.webp";
 import { MdModeComment } from "react-icons/md";
 import AdvantagesList from "@/components/Home/Content/AdvantagesList";
 
@@ -18,7 +18,7 @@ const Advantages = () => {
         <div className="flex flex-col items-center lg:items-start gap-8">
           <div className="flex items-center gap-4">
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-center lg:text-left">
-              Our Plans
+              Advantages
             </h2>
 
             <Image src={Bee} alt="Bee illustration" className="w-12 h-12" />
