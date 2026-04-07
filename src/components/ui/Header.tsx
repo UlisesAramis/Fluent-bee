@@ -16,10 +16,11 @@ const Header: React.FC = () => {
           <Link href="/">
             <Image
               src={Bee}
-              alt="Fluentbee logo"
-              width={140}
-              height={50}
-              priority
+              alt="FluentBee logo with a bee flying"
+              width={0}
+              height={0}
+              sizes="100vw"
+              className="w-36 h-auto"
             />
           </Link>
 
@@ -28,7 +29,9 @@ const Header: React.FC = () => {
               <li>
                 <Link
                   href="/our-planes"
-                  className="hover:text-polar-glow hover:bold transition"
+                  className="transition-all duration-150
+                  hover:text-neon-sky
+                  active:scale-90 active:translate-y-0.5"
                 >
                   Our planes
                 </Link>
@@ -36,7 +39,12 @@ const Header: React.FC = () => {
               <li>
                 <Link
                   href="/sign-up"
-                  className="hover:text-polar-glow hover:bold transition bg-mist-gray text-white px-4 py-2 rounded mt-4"
+                  className="hover:text-polar-glow hover:bg-black  bg-mist-gray text-white px-4 py-2 rounded mt-4 transition-all duration-150
+          
+                  shadow-md
+                  hover:brightness-110 hover:shadow-lg
+                  
+                  active:scale-95 active:translate-y-0.75 active:shadow-none"
                 >
                   Sign up
                 </Link>
@@ -44,7 +52,12 @@ const Header: React.FC = () => {
               <li>
                 <Link
                   href="/login"
-                  className="hover:text-polar-glow hover:bold transition bg-black text-white px-4 py-2 rounded mt-4"
+                  className="hover:text-black hover:bg-neon-sky  bg-black text-white px-4 py-2 rounded mt-4 transition-all duration-150
+          
+                  shadow-md
+                  hover:brightness-110 hover:shadow-lg
+                  
+                  active:scale-95 active:translate-y-0.75 active:shadow-none"
                 >
                   Login
                 </Link>
