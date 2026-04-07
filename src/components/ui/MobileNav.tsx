@@ -20,10 +20,11 @@ const MobileNav: React.FC<MobileNavProps> = ({ open, onClose }) => {
       <div className="flex items-center justify-between px-6 py-4 border-b">
         <Image
           src={Bee}
-          alt="Fluentbee logo"
-          width={120}
-          height={40}
-          priority
+          alt="FluentBee logo with a bee flying"
+          width={0}
+          height={0}
+          sizes="100vw"
+          className="w-36 h-auto"
         />
 
         {/* Close button */}
@@ -48,18 +49,32 @@ const MobileNav: React.FC<MobileNavProps> = ({ open, onClose }) => {
       <nav className="px-6 py-8">
         <ul className="flex flex-col gap-6 text-lg font-medium text-gray-800">
           <li>
-            <Link href="/" onClick={onClose}>
-              Home
+            <Link
+              href="/our-planes"
+              onClick={onClose}
+              className="hover:text-polar-glow transition"
+            >
+              Our planes
             </Link>
           </li>
+
           <li>
-            <Link href="/about" onClick={onClose}>
-              About
+            <Link
+              href="/sign-up"
+              onClick={onClose}
+              className="hover:text-polar-glow transition bg-mist-gray text-white px-4 py-2 rounded mt-4"
+            >
+              Sign up
             </Link>
           </li>
+
           <li>
-            <Link href="/contact" onClick={onClose}>
-              Contact
+            <Link
+              href="/login"
+              onClick={onClose}
+              className="hover:text-polar-glow transition bg-black text-white px-4 py-2 rounded mt-4"
+            >
+              Login
             </Link>
           </li>
         </ul>
