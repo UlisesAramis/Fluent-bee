@@ -1,8 +1,8 @@
 import Image from "next/image";
-import PriceGlob from "@/assets/globo.webp";
+import PriceGlob from "@/images/globo.webp";
 import { FaCircleExclamation } from "react-icons/fa6";
 import PricingPlans from "./Content/PricingPlans";
-import Bee from "@/assets/BeePlanes.webp";
+import Bee from "@/images/BeePlanes.webp";
 import ButtonBee from "../ui/ButtonBee";
 
 const OurPlans = () => {
